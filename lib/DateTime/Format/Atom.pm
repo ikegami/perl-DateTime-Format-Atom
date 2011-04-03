@@ -1,17 +1,10 @@
 
-use 5;
+package DateTime::Format::Atom;
 
 use strict;
 use warnings;
 
-
-package DateTime::Format::Atom;
-
-
-BEGIN {
-   use version; our $VERSION = qv('1.0.1');
-}
-
+use version; our $VERSION = qv('v1.0.2');
 
 use DateTime::Format::RFC3339 qw( );
 
@@ -63,7 +56,7 @@ DateTime::Format::Atom - Parse and format Atom datetime strings
 
 =head1 VERSION
 
-Version 1.0.1
+Version 1.0.2
 
 
 =head1 SYNOPSIS
@@ -171,7 +164,15 @@ Eric Brine, C<< <ikegami@adaelis.com> >>
 
 =head1 COPYRIGHT & LICENSE
 
-Public domain. No rights reserved.
+No rights reserved.
+
+The author has dedicated the work to the Commons by waiving all of his
+or her rights to the work worldwide under copyright law and all related or
+neighboring legal rights he or she had in the work, to the extent allowable by
+law.
+
+Works under CC0 do not require attribution. When citing the work, you should
+not imply endorsement by the author.
 
 
 =cut

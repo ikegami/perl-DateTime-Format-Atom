@@ -1,7 +1,8 @@
-Changes
+Changes.txt
+LICENSE.txt
 MANIFEST
 Makefile.PL
-README
+README.txt
 lib/DateTime/Format/Atom.pm
 t/00_load.t
 t/01_parsing.t

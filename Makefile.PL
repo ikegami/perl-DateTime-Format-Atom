@@ -8,6 +8,7 @@ WriteMakefile(
    AUTHOR        => 'Eric Brine <ikegami@adaelis.com>',
    VERSION_FROM  => 'lib/DateTime/Format/Atom.pm',
    ABSTRACT_FROM => 'lib/DateTime/Format/Atom.pm',
+   LICENSE       => 'CC0_1_0',
    PREREQ_PM     => { 'DateTime'                  => 0,
                       'DateTime::Format::RFC3339' => 0,
                       'Test::More'                => 0,
