@@ -9,7 +9,7 @@ package DateTime::Format::Atom;
 
 
 BEGIN {
-   use version; our $VERSION = qv('1.0.0');
+   use version; our $VERSION = qv('1.0.1');
 }
 
 
@@ -63,7 +63,7 @@ DateTime::Format::Atom - Parse and format Atom datetime strings
 
 =head1 VERSION
 
-Version 1.0.0
+Version 1.0.1
 
 
 =head1 SYNOPSIS
@@ -74,13 +74,13 @@ Version 1.0.0
     my $dt = $f->parse_datetime( '2002-07-01T13:50:05Z' );
 
     # 2002-07-01T13:50:05Z
-    $f->format_datetime($dt);
+    print $f->format_datetime($dt);
 
 
 =head1 DESCRIPTION
 
 This module understands the Atom date/time format, an ISO 8601 profile, defined
-at L<http://www.ietf.org/rfc/rfc4287.txt>
+at L<http://tools.ietf.org/html/rfc4287>
 
 It can be used to parse these formats in order to create the appropriate 
 objects.
@@ -91,7 +91,7 @@ All the work is actually done by L<DateTime::Format::RFC3339>.
 
 =over
 
-=item parse_datetime($string)
+=item C<parse_datetime($string)>
 
 Given a Atom datetime string, this method will return a new
 L<DateTime> object.
@@ -100,7 +100,7 @@ If given an improperly formatted string, this method will croak.
 
 For a more flexible parser, see L<DateTime::Format::ISO8601>.
 
-=item format_datetime($datetime)
+=item C<format_datetime($datetime)>
 
 Given a L<DateTime> object, this methods returns a Atom datetime
 string.
@@ -119,8 +119,12 @@ For simplicity, the datetime will be converted to UTC first.
 
 =item * L<DateTime::Format::ISO8601>
 
-=item * L<http://tools.ietf.org/html/rfc3339>, "Date and Time on the Internet: Timestamps"
-=item * L<http://tools.ietf.org/html/rfc4287>, "The Atom Syndication Format"
+=item * L<http://tools.ietf.org/html/rfc3339>, "Date and Time on the Internet: Timestamps"
+
+
+=item * L<http://tools.ietf.org/html/rfc4287>, "The Atom Syndication Format"
+
+
 =back
 
 
