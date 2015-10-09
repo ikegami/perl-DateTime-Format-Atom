@@ -4,7 +4,7 @@ package DateTime::Format::Atom;
 use strict;
 use warnings;
 
-use version; our $VERSION = qv('v1.2.0');
+use version; our $VERSION = qv('v1.3.0');
 
 use DateTime::Format::RFC3339 qw( );
 
@@ -56,7 +56,7 @@ DateTime::Format::Atom - Parse and format Atom datetime strings
 
 =head1 VERSION
 
-Version 1.2.0
+Version 1.3.0
 
 
 =head1 SYNOPSIS
