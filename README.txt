@@ -8,8 +8,8 @@ INSTALLATION
 To install this module, run the following commands:
 
     perl Makefile.PL
-    make 
-    make test 
+    make
+    make test
     make install
 
 DEPENDENCIES
@@ -19,7 +19,9 @@ This module requires these other modules and libraries:
     DateTime
     DateTime::Format::RFC3339
     Test::More
+    strict
     version
+    warnings
 
 SUPPORT AND DOCUMENTATION
 

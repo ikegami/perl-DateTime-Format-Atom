@@ -4,7 +4,7 @@ package DateTime::Format::Atom;
 use strict;
 use warnings;
 
-use version; our $VERSION = qv('v1.0.2');
+use version; our $VERSION = qv('v1.2.0');
 
 use DateTime::Format::RFC3339 qw( );
 
@@ -56,7 +56,7 @@ DateTime::Format::Atom - Parse and format Atom datetime strings
 
 =head1 VERSION
 
-Version 1.0.2
+Version 1.2.0
 
 
 =head1 SYNOPSIS
@@ -75,7 +75,7 @@ Version 1.0.2
 This module understands the Atom date/time format, an ISO 8601 profile, defined
 at L<http://tools.ietf.org/html/rfc4287>
 
-It can be used to parse these formats in order to create the appropriate 
+It can be used to parse these formats in order to create the appropriate
 objects.
 
 All the work is actually done by L<DateTime::Format::RFC3339>.
@@ -123,7 +123,7 @@ For simplicity, the datetime will be converted to UTC first.
 
 =head1 BUGS
 
-Please report any bugs or feature requests to C<bug-datetime-format-atom at rt.cpan.org>,
+Please report any bugs or feature requests to C<bug-Datetime-Format-Atom at rt.cpan.org>,
 or through the web interface at L<http://rt.cpan.org/NoAuth/ReportBug.html?Queue=DateTime-Format-Atom>.
 I will be notified, and then you'll automatically be notified of progress on your bug as I make changes.
 
