@@ -30,7 +30,6 @@ WriteMakefile(
                'strict'                    => 0,
                'version'                   => 0,
                'warnings'                  => 0,
-               'DateTime'                  => 0,
                'DateTime::Format::RFC3339' => 0,
             },
          },
@@ -44,7 +43,6 @@ WriteMakefile(
          },
          develop => {
             requires => {
-               'FindBin'                   => 0,
                'Pod::Coverage'             => 0.18,
                'Test::Pod::Coverage'       => 1.08,
             },
@@ -52,11 +50,10 @@ WriteMakefile(
       },
 
       resources => {
-         homepage => 'http://search.cpan.org/dist/DateTime-Format-Atom/',
+         homepage => 'https://metacpan.org/dist/DateTime-Format-Atom',
          license => [ 'http://creativecommons.org/publicdomain/zero/1.0/' ],
          bugtracker => {
-            web    => 'http://rt.cpan.org/NoAuth/ReportBug.html?Queue=DateTime-Format-Atom',
-            mailto => 'bug-DateTime-Format-Atom@rt.cpan.org',
+            web => 'https://github.com/ikegami/perl-DateTime-Format-Atom/issues',
          },
          repository => {
             type => 'git',
