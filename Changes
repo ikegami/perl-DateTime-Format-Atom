@@ -1,6 +1,6 @@
 Revision history for DateTime-Format-Atom
 
-1.4.0   ~~~~-~~-~~
+1.4.0   2024-01-01
         - Fixed bug tracker information.
         - Misc internal improvements.
 
