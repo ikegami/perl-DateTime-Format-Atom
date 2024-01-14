@@ -27,6 +27,7 @@ WriteMakefile(
          },
          runtime => {
             requires => {
+               'perl'                      => 5.010,
                'strict'                    => 0,
                'version'                   => 0,
                'warnings'                  => 0,
