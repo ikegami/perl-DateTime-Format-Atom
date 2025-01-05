@@ -186,7 +186,7 @@ I will be notified, and then you'll automatically be notified of progress on you
 Eric Brine, C<< <ikegami@adaelis.com> >>
 
 
-=head1 COPYRIGHT & LICENSE
+=head1 COPYRIGHT AND LICENSE
 
 No rights reserved.
 
